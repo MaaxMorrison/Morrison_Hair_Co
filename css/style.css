@@ -37,6 +37,7 @@ code { background: rgba(42,33,28,.08); padding: 2px 6px; border-radius: 8px; }
 
 .hero-card, .pricing-block, .feature-box, .testimonial, .testimonial-card, .review-highlights, .contact-card, .service-card { background: rgba(255, 255, 255, 0.72); border: 1px solid rgba(42, 33, 28, 0.08); border-radius: 28px; box-shadow: var(--shadow); }
 .hero-card { padding: 18px; transform: rotate(1.5deg); }
+.hero-card img { width: 220px; aspect-ratio: 3/4; border-radius: 22px; object-fit: cover; object-position: top; display: block; }
 .image-placeholder, .gallery-item, .mini-product { min-height: 340px; border-radius: 22px; background: linear-gradient(135deg, var(--sand), #f3e4d4); display: grid; place-items: center; text-align: center; padding: 20px; color: var(--espresso); font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; }
 .hero-card p { padding: 0 8px; color: var(--muted); }
 
@@ -86,7 +87,7 @@ code { background: rgba(42,33,28,.08); padding: 2px 6px; border-radius: 8px; }
 .about-section { background: var(--cream); }
 .about-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
 .about-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.about-photo-wrap img { width: 100%; max-width: 220px; height: 280px; border-radius: 22px; box-shadow: var(--shadow); object-fit: cover; object-position: top; }
+.about-photo-wrap img { width: 100%; max-width: 220px; aspect-ratio: 3/4; border-radius: 22px; box-shadow: var(--shadow); object-fit: cover; object-position: top; }
 .about-photo-wrap .image-placeholder { min-height: 280px; max-width: 220px; border-radius: 22px; }
 .about-text { display: flex; flex-direction: column; gap: 16px; }
 .about-text h2 { margin: 0; }
