@@ -79,7 +79,7 @@ code { background: rgba(42,33,28,.08); padding: 2px 6px; border-radius: 8px; }
 .testimonial span { color: var(--taupe); font-weight: 700; }
 .cta-section { text-align: center; background: linear-gradient(135deg, #efe0cf, #fbf6ef); }
 .cta-section p { max-width: 600px; margin: 0 auto 24px; color: var(--muted); }
-.contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.contact-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
 .contact-card { padding: 26px; }
 .contact-card h3 { margin: 0 0 10px; font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; }
 .contact-card p { color: var(--muted); }
