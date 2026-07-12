@@ -37,7 +37,7 @@ code { background: rgba(42,33,28,.08); padding: 2px 6px; border-radius: 8px; }
 
 .hero-card, .pricing-block, .feature-box, .testimonial, .testimonial-card, .review-highlights, .contact-card, .service-card { background: rgba(255, 255, 255, 0.72); border: 1px solid rgba(42, 33, 28, 0.08); border-radius: 28px; box-shadow: var(--shadow); }
 .hero-card { padding: 18px; transform: rotate(1.5deg); }
-.hero-card img { width: 100%; aspect-ratio: 3/4; border-radius: 22px; object-fit: cover; object-position: top; display: block; }
+.hero-card img { max-width: 100%; display: block; border-radius: 22px; }
 .image-placeholder, .gallery-item, .mini-product { min-height: 340px; border-radius: 22px; background: linear-gradient(135deg, var(--sand), #f3e4d4); display: grid; place-items: center; text-align: center; padding: 20px; color: var(--espresso); font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; }
 .hero-card p { padding: 0 8px; color: var(--muted); }
 
