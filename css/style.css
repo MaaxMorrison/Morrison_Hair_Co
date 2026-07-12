@@ -16,9 +16,9 @@ a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 code { background: rgba(42,33,28,.08); padding: 2px 6px; border-radius: 8px; }
 
-.site-header { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; padding: 18px 6vw; background: rgba(251, 246, 239, 0.92); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(42, 33, 28, 0.08); }
-section, #home, #about, #services, #gallery, #shop, #reviews, #book, #contact { scroll-margin-top: 90px; }
-.brand .logo { height: 52px; width: auto; max-width: 160px; max-height: 52px; display: block; object-fit: contain; flex-shrink: 0; }
+.site-header { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; padding: 6px 6vw; background: rgba(251, 246, 239, 0.92); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(42, 33, 28, 0.08); }
+section, #home, #about, #services, #gallery, #shop, #reviews, #book, #contact { scroll-margin-top: 60px; }
+.brand .logo { height: 40px; width: auto; max-width: 130px; max-height: 40px; display: block; object-fit: contain; flex-shrink: 0; }
 .brand { font-family: 'Cormorant Garamond', serif; font-weight: 700; font-size: 1.6rem; letter-spacing: 0.04em; }
 .nav-links { display: flex; align-items: center; gap: 22px; font-size: 0.92rem; font-weight: 600; }
 .nav-button, .button { border-radius: 999px; padding: 12px 20px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease; }
@@ -65,7 +65,8 @@ section, #home, #about, #services, #gallery, #shop, #reviews, #book, #contact { 
 .shop-section h2, .shop-section .eyebrow { color: var(--white); }
 .shop-section p { color: rgba(255,255,255,0.78); }
 .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.mini-product { min-height: 170px; font-size: 1.2rem; background: rgba(255,255,255,0.14); color: var(--white); }
+.mini-product { min-height: 170px; font-size: 1.2rem; background: rgba(255,255,255,0.14); color: var(--white); border-radius: 22px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+.mini-product img { width: 100%; height: 200px; object-fit: contain; display: block; }
 
 .reviews-section { text-align: center; background: #fffaf4; }
 .reviews-section .section-heading { margin-left: auto; margin-right: auto; }
