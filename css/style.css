@@ -91,6 +91,7 @@ section, #home, #about, #services, #gallery, #shop, #reviews, #book, #policies, 
 .map-embed { margin-top: 48px; border-radius: 22px; overflow: hidden; box-shadow: var(--shadow); }
 
 .policies-section { background: #fffaf4; text-align: center; }
+.policies-section .section-heading { margin-left: auto; margin-right: auto; text-align: center; }
 .policies-image { max-width: 680px; margin: 0 auto; }
 .policies-image img { width: 100%; border-radius: 22px; box-shadow: var(--shadow); display: block; }
 
